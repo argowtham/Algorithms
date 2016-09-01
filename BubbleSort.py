@@ -18,5 +18,5 @@ if __name__ == '__main__':
     for i in range(0, n):
         arr.append(int(input()))
     print("Input array: ", arr)
-    # Calling insertion sort algorithm
+    # Calling Bubble sort algorithm
     bubble_sort(arr)
