@@ -26,7 +26,7 @@ def merge_sort(arr_in):
             arr_in[l] = right_arr[k]
             k += 1
             l += 1
-        print("Array sorted by Merge sort: ", arr_in)
+        return arr_in
 
 
 if __name__ == "__main__":
@@ -38,4 +38,4 @@ if __name__ == "__main__":
         arr.append(int(input()))
     print("Input array: ", arr)
     # Calling merge sort algorithm
-    merge_sort(arr)
+    print(merge_sort(arr))
