@@ -15,7 +15,7 @@ if __name__ == '__main__':
     n = int(input("Enter the number of elements"))
     print("Enter the elements one by one")
     arr = []
-    for i in range(0, n):
+    for element in range(0, n):
         arr.append(int(input()))
     print("Input array: ", arr)
     # Calling Bubble sort algorithm

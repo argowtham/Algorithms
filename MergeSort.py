@@ -7,9 +7,7 @@ def merge_sort(arr_in):
         merge_sort(right_arr)
         # Iterating through left and right array by each element to check which is greater and sorting it to the input
         # array
-        j = 0
-        k = 0
-        l = 0
+        j, k, l = 0, 0, 0
         while j < len(left_arr) and k < len(right_arr):
             if left_arr[j] > right_arr[k]:
                 arr_in[l] = right_arr[k]
@@ -39,5 +37,5 @@ if __name__ == "__main__":
     for i in range(0, n):
         arr.append(int(input()))
     print("Input array: ", arr)
-    # Calling insertion sort algorithm
+    # Calling merge sort algorithm
     merge_sort(arr)
